@@ -6,13 +6,15 @@
     <title>Navbar</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'books/style.css' %}">
 </head>
 <body>
 <nav class="navbar navbar-dark bg-dark">
     <a class="navbar-brand" href="{% url 'book_list' %}">BOOK Lovers</a>
     <a href="{% url 'book_list' %}" class="nav-item mr-auto">Home</a>
 </nav>
-
+<br>
 	<div class="row justify-content-center">
         <div class="col-12 col-md-10 col-lg-8">
             <form class="card card-sm">
@@ -34,6 +36,7 @@
         </div>
         <!--end of col-->
     </div>
+<br>
 
 {% block body %}
 {% endblock %}
