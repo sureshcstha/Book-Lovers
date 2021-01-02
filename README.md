@@ -1,2 +1,2 @@
-# CS3620_Book
-Pagination, Virtual Environment, Search, &amp; User Permission (Coding Challenge 8)
+# Book-Lovers
+Pagination, Virtual Environment, Search, &amp; User Permission
